@@ -17,27 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def testData = findTestData('Data Files/dataFIle')
-def userName = testData.getObjectValue('Username', 1)
-def password = testData.getObjectValue('Password', 1)
-def itemName = testData.getObjectValue('Item', 1)
-def loginID  = WebUI.getText(findTestObject('Page_Swag Labs/input_Swag Labs_login-button'))
-WebUI.comment(userName);
-WebUI.comment(password);
-WebUI.comment(itemName);
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart'))
 
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.saucedemo.com/')
-
-WebUI.setText(findTestObject('Page_Swag Labs/input_Swag Labs_user-name'), userName)
-
-WebUI.setText(findTestObject('Page_Swag Labs/input_Swag Labs_password'), password)
-
-WebUI.verifyElementPresent(findTestObject('Page_Swag Labs/input_Swag Labs_login-button'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_Swag Labs/input_Swag Labs_login-button'))
-
-//WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Sauce Labs Backpack', [item: itemName]))
-
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/a_Swag Labs_shopping_cart_link'))

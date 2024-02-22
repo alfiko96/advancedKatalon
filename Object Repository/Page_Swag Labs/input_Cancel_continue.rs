@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Swag Labs_login-button</name>
+   <name>input_Cancel_continue</name>
    <tag></tag>
-   <elementGuidId>0deb9cec-872f-40b2-9dcb-51a1673e9388</elementGuidId>
+   <elementGuidId>9ddbb687-8e0e-4fdd-8859-417aa2743305</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='login-button']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and @id = 'login-button' and @name = 'login-button']</value>
+         <value>//input[@id='continue']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#login-button</value>
+         <value>#continue</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ef875595-7a62-4c10-84ec-34d8ecad2cb9</webElementGuid>
+      <webElementGuid>aec2a866-09c4-43ad-9bc7-e535fb927a82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,86 +30,86 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>a0700b30-84aa-45d3-85d9-a88782af3431</webElementGuid>
+      <webElementGuid>b199f456-b51d-4acb-b585-96a4b80e36cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>submit-button btn_action</value>
-      <webElementGuid>4c633549-697b-4658-982b-dc611659765f</webElementGuid>
+      <value>submit-button btn btn_primary cart_button btn_action</value>
+      <webElementGuid>c334bcc7-3e9c-4794-8c85-b4dd0aef4d0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-test</name>
       <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>50f63be2-5518-4883-89fe-d078811bc522</webElementGuid>
+      <value>continue</value>
+      <webElementGuid>a9408ee1-8036-4370-b31d-c074ac7defec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>d8217927-be48-4d35-bc2e-4e14d1dd4dd1</webElementGuid>
+      <value>continue</value>
+      <webElementGuid>14e99a3f-60f8-40af-a038-f8e41b4f21e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>c3b0b14e-e857-469d-97d1-0606b9de99d0</webElementGuid>
+      <value>continue</value>
+      <webElementGuid>971444e3-43ec-4353-bdb2-4e4e08a2e0d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>f64e7aec-f573-4e97-9c43-abb5b2006a2f</webElementGuid>
+      <value>Continue</value>
+      <webElementGuid>f1377346-f3ad-4f22-a6d2-6e25cf3f4ffb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-button&quot;)</value>
-      <webElementGuid>e7d396c9-65f3-4c62-81c5-de10db6c4f9e</webElementGuid>
+      <value>id(&quot;continue&quot;)</value>
+      <webElementGuid>8955e076-888c-4033-82f0-c0603c4ca0c6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='login-button']</value>
-      <webElementGuid>9fd7c3bb-05af-4e43-9e5d-8d0242f39aa4</webElementGuid>
+      <value>//input[@id='continue']</value>
+      <webElementGuid>998a25dc-eecb-4bfe-a0c5-96ca7ca53880</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='login_button_container']/div/form/input</value>
-      <webElementGuid>d2b0f40f-7da7-4efa-864a-65fac8e1b8f8</webElementGuid>
+      <value>//div[@id='checkout_info_container']/div/form/div[2]/input</value>
+      <webElementGuid>deeb63c8-a9e8-45ef-8e22-63bf249f0fb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/input</value>
-      <webElementGuid>da1f52be-a1bd-4a45-be08-96e9e778533f</webElementGuid>
+      <value>//div[2]/input</value>
+      <webElementGuid>02da63aa-f6cf-4e32-9875-528434182dd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit' and @id = 'login-button' and @name = 'login-button']</value>
-      <webElementGuid>112992f9-3a44-4f80-8ef2-9b47300b65b4</webElementGuid>
+      <value>//input[@type = 'submit' and @id = 'continue' and @name = 'continue']</value>
+      <webElementGuid>015671f4-2367-478f-a36e-734bf936c0fb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
